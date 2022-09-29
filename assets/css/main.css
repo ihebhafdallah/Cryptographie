@@ -1,0 +1,81 @@
+.row {
+    position: absolute;
+    top: 50%;
+    width: 95%;
+    transform: translateX(50%) translateY(-50%);
+    right: 50%;
+}
+.row .box {
+    height: 120px;
+    width: 240px;
+    background-color: brown;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+.row .box a,
+.btn a,
+.copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.row .box a:hover,
+.btn a:hover, 
+.copyright a:hover {
+    color: crimson;
+}
+
+.copyright {
+    width: 100%;
+    height: 45px;
+    background-color: brown;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+.container .row form input {
+    margin: 10px;
+    padding: 10px;
+}
+
+.container .row form input[type=text] {
+
+    width: 75%;
+
+}
+
+.container .row form input[type=submit] {
+    color: #fff;
+    background-color: brown;
+    text-decoration: none;
+    border: none;
+}
+
+.btn {
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    background-color: brown;
+    color: #fff;
+    bottom: 60px;
+    right: 45px;
+    border-radius: 50%;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+.not-found {
+    background-color: brown;
+    margin: 0 35%;    
+}
+.not-found h1 {
+    font-weight: 800;
+    font-size: 120pt;
+    color: #fff;
+}
